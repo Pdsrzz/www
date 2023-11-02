@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/biuaxia/www/edit/v1/docs/",
+            "https://github.com/biuaxia/www/edit/v1/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/biuaxia/www/edit/v1/blog/",
+            "https://github.com/biuaxia/www/edit/v1/",
         },
         theme: {
           customCss: "./src/css/custom.css",
