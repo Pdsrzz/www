@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "JaverVip && ZhCN_IT",
+  title: "JaverVip && ZhCN",
   tagline: "产品发布页 && 废话垃圾桶",
   favicon: "img/favicon.ico",
 

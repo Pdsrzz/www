@@ -1,17 +1,10 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+biuaxia:
+  name: Biuaxia
+  title: Java、Golang、JSP、练习2+两年半的蓝凌OA开发者
+  url: https://github.com/biuaxia
+  image_url: https://gravatar.loli.net/avatar/biuaxia@qq.com
+javerVip:
+  name: javerVip
+  title: 风灵客户端、联想壁纸开发者
+  url: https://github.com/javerVip
+  image_url: https://gravatar.loli.net/avatar/1@javer.vip
