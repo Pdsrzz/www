@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.javer.vip/blog</id>
+    <title>JaverVip &amp;&amp; ZhCN Blog</title>
+    <updated>2023-11-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.javer.vip/blog"/>
+    <subtitle>JaverVip &amp;&amp; ZhCN Blog</subtitle>
+    <icon>https://www.javer.vip/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://www.javer.vip/blog/2023/11/02/</id>
+        <link href="https://www.javer.vip/blog/2023/11/02/"/>
+        <updated>2023-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Biuaxia</name>
+            <uri>https://github.com/biuaxia</uri>
+        </author>
+        <author>
+            <name>javerVip</name>
+            <uri>https://github.com/javerVip</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
