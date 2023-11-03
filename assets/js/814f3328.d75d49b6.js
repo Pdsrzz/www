@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwww=self.webpackChunkwww||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u4eba\u4e8b\u6d41\u7a0b\u72b6\u6001\u503c\u4e00\u89c8","permalink":"/blog/\u4eba\u4e8b\u6d41\u7a0b\u72b6\u6001\u503c","unlisted":false},{"title":"First Blog Post","permalink":"/blog/2023/11/02/","unlisted":false}]}')}}]);
