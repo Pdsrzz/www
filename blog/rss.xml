@@ -4,7 +4,7 @@
         <title>JaverVip &amp;&amp; ZhCN Blog</title>
         <link>https://www.javer.vip/blog</link>
         <description>JaverVip &amp;&amp; ZhCN Blog</description>
-        <lastBuildDate>Fri, 03 Nov 2023 06:54:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Nov 2023 06:54:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hands</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[OA相关]]></title>
             <link>https://www.javer.vip/blog/OA相关</link>
             <guid>https://www.javer.vip/blog/OA相关</guid>
-            <pubDate>Fri, 03 Nov 2023 06:54:06 GMT</pubDate>
+            <pubDate>Fri, 03 Nov 2023 06:54:41 GMT</pubDate>
             <description><![CDATA[二次入职流程说明]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二次入职流程说明">二次入职流程说明<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BA%8C%E6%AC%A1%E5%85%A5%E8%81%8C%E6%B5%81%E7%A8%8B%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="二次入职流程说明的直接链接" title="二次入职流程说明的直接链接">​</a></h2>
 <ol>
@@ -93,95 +93,6 @@
 </ul>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id="体检安排">体检安排<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BD%93%E6%A3%80%E5%AE%89%E6%8E%92" class="hash-link" aria-label="体检安排的直接链接" title="体检安排的直接链接">​</a></h5>
 <h6 class="anchor anchorWithStickyNavbar_LWe7" id="已安排-arrangepage">已安排 ArrangePage<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E5%B7%B2%E5%AE%89%E6%8E%92-arrangepage" class="hash-link" aria-label="已安排 ArrangePage的直接链接" title="已安排 ArrangePage的直接链接">​</a></h6>
-<ul>
-<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
-<ul>
-<li>pass is null, 是否通过0合格 1不合格 2复证 合格则待取证</li>
-<li>type_status in (0, 1), 2023-10-26</li>
-<li>tj_sure = 2, 是否安排体检0待处理 1待安排 2已安排 3已取消</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[人事流程状态值一览]]></title>
-            <link>https://www.javer.vip/blog/人事流程状态值</link>
-            <guid>https://www.javer.vip/blog/人事流程状态值</guid>
-            <pubDate>Fri, 03 Nov 2023 06:54:06 GMT</pubDate>
-            <description><![CDATA[招聘管理]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="招聘管理">招聘管理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E6%8B%9B%E8%81%98%E7%AE%A1%E7%90%86" class="hash-link" aria-label="招聘管理的直接链接" title="招聘管理的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="社招管理">社招管理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E7%A4%BE%E6%8B%9B%E7%AE%A1%E7%90%86" class="hash-link" aria-label="社招管理的直接链接" title="社招管理的直接链接">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="社招人才管理">社招人才管理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E7%A4%BE%E6%8B%9B%E4%BA%BA%E6%89%8D%E7%AE%A1%E7%90%86" class="hash-link" aria-label="社招人才管理的直接链接" title="社招人才管理的直接链接">​</a></h4>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="二次入职-secondemplist">二次入职 secondEmpList<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E4%BA%8C%E6%AC%A1%E5%85%A5%E8%81%8C-secondemplist" class="hash-link" aria-label="二次入职 secondEmpList的直接链接" title="二次入职 secondEmpList的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_zp_talentpool_resume, 校招社招简历人才库<!-- -->
-<ul>
-<li>classification = 1, 简历类型(0校招，1社招，2劳务公司)</li>
-<li>is_deleted = 0, 是否删除, 0否1是</li>
-<li>two_emp = 1, 是否二次入职, 0否1是</li>
-</ul>
-</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="简历处理">简历处理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E7%AE%80%E5%8E%86%E5%A4%84%E7%90%86" class="hash-link" aria-label="简历处理的直接链接" title="简历处理的直接链接">​</a></h4>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="待处理-untreatedinterview">待处理 untreatedInterview<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%BE%85%E5%A4%84%E7%90%86-untreatedinterview" class="hash-link" aria-label="待处理 untreatedInterview的直接链接" title="待处理 untreatedInterview的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_zp_talentpool_resume, 校招社招简历人才库<!-- -->
-<ul>
-<li>classification = 1, 简历类型(0校招，1社招，2劳务公司)</li>
-<li>stage = 1, 阶段(0:新简历 1:面试 2:拟录用 3:入职 4:黑名单 5:待分配)</li>
-<li>resume_status in (0, 200), 简历状态(0未处理 1:已处理)</li>
-<li>is_deleted = 0, 是否删除, 0否1是</li>
-</ul>
-</li>
-</ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="已处理-szinterview">已处理 szInterview<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%B7%B2%E5%A4%84%E7%90%86-szinterview" class="hash-link" aria-label="已处理 szInterview的直接链接" title="已处理 szInterview的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_zp_interview_evaluation, 面试评价<!-- -->
-<ul>
-<li>recruitment_type = 1, 招聘类型（0:校招 1:社招）</li>
-<li>is_retest = 1, 是否复试 0是  1否</li>
-</ul>
-</li>
-<li>zhkj_zzoa_zp_talentpool_resume, 校招社招简历人才库<!-- -->
-<ul>
-<li>stage in (1,6,2,3,7), 阶段(0:新简历 1:面试 2:拟录用 3:入职 4:黑名单 5:待分配)</li>
-<li>eliminate_blacklist in (0,1,3,4), 淘汰或者黑名单(0:正常 1:淘汰 2:黑名单 3:通过 4:转岗)</li>
-<li>is_deleted = 0, 是否删除, 0否1是</li>
-</ul>
-</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="待入职申请管理">待入职申请管理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%BE%85%E5%85%A5%E8%81%8C%E7%94%B3%E8%AF%B7%E7%AE%A1%E7%90%86" class="hash-link" aria-label="待入职申请管理的直接链接" title="待入职申请管理的直接链接">​</a></h4>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="待申请-waitentrypage">待申请 waitEntryPage<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%BE%85%E7%94%B3%E8%AF%B7-waitentrypage" class="hash-link" aria-label="待申请 waitEntryPage的直接链接" title="待申请 waitEntryPage的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_yg_entry_management, 入职管理表<!-- -->
-<ul>
-<li>is_deleted = 0, 是否删除, 0否1是</li>
-<li>classification IS NOT NULL, 简历类型 0校招  1社招</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="体检管理">体检管理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E4%BD%93%E6%A3%80%E7%AE%A1%E7%90%86" class="hash-link" aria-label="体检管理的直接链接" title="体检管理的直接链接">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="体检处理">体检处理<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E4%BD%93%E6%A3%80%E5%A4%84%E7%90%86" class="hash-link" aria-label="体检处理的直接链接" title="体检处理的直接链接">​</a></h4>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="待处理-occupationpeoplecontrollerpage">待处理 OccupationPeopleController#page<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%BE%85%E5%A4%84%E7%90%86-occupationpeoplecontrollerpage" class="hash-link" aria-label="待处理 OccupationPeopleController#page的直接链接" title="待处理 OccupationPeopleController#page的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
-<ul>
-<li>is_deleted = 0, 是否删除, 0否1是</li>
-<li>tj_result = 0, 是否上传 0未上传  1已上传</li>
-<li>tj_sure = 0, 是否安排体检0待处理 1待安排 2已安排 3已取消</li>
-</ul>
-</li>
-</ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="已处理-occupationpeoplecontrollerpagealready">已处理 OccupationPeopleController#pageAlready<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%B7%B2%E5%A4%84%E7%90%86-occupationpeoplecontrollerpagealready" class="hash-link" aria-label="已处理 OccupationPeopleController#pageAlready的直接链接" title="已处理 OccupationPeopleController#pageAlready的直接链接">​</a></h5>
-<ul>
-<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
-<ul>
-<li>tj_sure <code>&lt;&gt;</code> 0, 不等于0, 是否安排体检0待处理 1待安排 2已安排 3已取消</li>
-</ul>
-</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="体检安排">体检安排<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E4%BD%93%E6%A3%80%E5%AE%89%E6%8E%92" class="hash-link" aria-label="体检安排的直接链接" title="体检安排的直接链接">​</a></h4>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id="已安排-arrangepage">已安排 ArrangePage<a href="https://www.javer.vip/blog/%E4%BA%BA%E4%BA%8B%E6%B5%81%E7%A8%8B%E7%8A%B6%E6%80%81%E5%80%BC#%E5%B7%B2%E5%AE%89%E6%8E%92-arrangepage" class="hash-link" aria-label="已安排 ArrangePage的直接链接" title="已安排 ArrangePage的直接链接">​</a></h5>
 <ul>
 <li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
 <ul>
