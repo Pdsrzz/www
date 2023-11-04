@@ -133,11 +133,93 @@ else  {
 
 ![image.png](https://b3logfile.com/file/2023/11/image-TDKi2gc.png)
 
+## 网络配置
+
+### 修改网卡配置
+
+`vi /etc/network/interfaces`， 将address修改为网关内的ip。
+
+比如我这里是 `192.168.100.2` 作为IP，但网关是 `192.168.31.1`。
+
+![image.png](https://b3logfile.com/file/2023/11/image-ebGW5Ry.png)
+
+```text
+auto lo
+iface lo inet loopback
+
+iface eth0 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+        address 192.168.100.2/24
+        gateway 192.168.31.1
+        bridge-ports eth0
+        bridge-stp off
+        bridge-fd 0
+```
+
+所以修改为 `192.168.31.31`。
+
+```text
+auto lo
+iface lo inet loopback
+
+iface eth0 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+        address 192.168.31.31/24
+        gateway 192.168.31.1
+        bridge-ports eth0
+        bridge-stp off
+        bridge-fd 0
+```
+
+:::tips
+虚拟机自带的vi使用貌似有问题，要慢慢摸索下。。。
+:::
+
+### 修改PVE登录时提示的访问链接
+
+`vi /etc/issue`, 这个不用说了。
+
+```text
+
+------------------------------------------------------------------------------
+
+Welcome to the Proxmox Virtual Environment. Please use your web browser to
+configure this server - connect to:
+
+  https://192.168.31.31:8006/
+
+------------------------------------------------------------------------------
+
+```
+
+### 修改PVE的Host
+
+`vi /etc/hosts`, 修改第二行的 ip 为新的。
+
+```text
+127.0.0.1 localhost.localdomain localhost
+192.168.31.31 pve.javer.vip pve
+
+# The following lines are desirable for IPv6 capable hosts
+
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+```
+
+重启PVE服务器即可。
+
 ## Ref 参考资料
 
 - [瞎折腾，Hyper-V 虚拟 Proxmox VE 再嵌套虚拟化 DSM 6.X - STARGAZER](https://blog.gazer.win/essay/run-dsm-in-pve-virtual-machine-with-hyper-v-nested-virtualization.html)
 - [[ Proxmox 折腾手记 ] PVE系统安装 - 哔哩哔哩](https://www.bilibili.com/read/cv17648783/)
 - [hyper-v 中安装 PVE 虚拟机 - 掘金](https://juejin.cn/post/7201048368390324282)
 - [Proxmox VE 踩坑记录](https://yxz.me/2018/05/20/proxmox-ve-manual/)
-
-
+- [Proxmox Virtual Environment（PVE）完美的更改IP地址 - GXNAS博客](https://wp.gxnas.com/4870.html)
