@@ -214,7 +214,9 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 ```
 
-重启PVE服务器即可。
+重启PVE服务器即可。现在访问 [https://192.168.31.31:8006/](https://192.168.31.31:8006/) 就能够访问到 PVE 了。
+
+![image.png](https://b3logfile.com/file/2023/11/image-b62cY7Y.png)
 
 ## Ref 参考资料
 
