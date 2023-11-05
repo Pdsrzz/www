@@ -117,6 +117,10 @@ const config = {
                 label: "博客",
                 to: "/blog",
               },
+              {
+                label: "RakSmart 1C2G5M 探针",
+                to: "http://198.200.60.2/",
+              },
             ],
           },
           {
