@@ -100,6 +100,10 @@ const config = {
                 label: "零玖博客",
                 to: "https://meblogs.netlify.app/weblink.html",
               },
+              {
+                label: "多吉云",
+                to: "https://www.dogecloud.com/",
+              },
             ],
           },
           {
@@ -149,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}, 本站使用 <a href="https://docusaurus.io/" target="_blank">docusaurus</a> 构建.<br/><a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2022028764号</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()}, 本站使用 <a href="https://docusaurus.io/" target="_blank">docusaurus</a> 构建<a href="https://www-3hf.pages.dev" target="_blank">.</a><br/><a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2022028764号</a>`,
       },
       prism: {
         theme: prismThemes.github,
