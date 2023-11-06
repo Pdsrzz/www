@@ -122,6 +122,10 @@ const config = {
                 to: "/blog",
               },
               {
+                label: "查看你的剪贴板",
+                to: "https://gh.javer.vip/",
+              },
+              {
                 label: "RakSmart 1C2G5M 探针",
                 to: "http://198.200.60.2/",
               },
