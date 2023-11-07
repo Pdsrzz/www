@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.javer.vip/blog</id>
     <title>JaverVip &amp;&amp; ZhCN Blog</title>
-    <updated>2023-11-07T09:23:58.000Z</updated>
+    <updated>2023-11-07T11:02:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.javer.vip/blog"/>
     <subtitle>JaverVip &amp;&amp; ZhCN Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[OA相关]]></title>
         <id>https://www.javer.vip/blog/OA相关</id>
         <link href="https://www.javer.vip/blog/OA相关"/>
-        <updated>2023-11-07T09:23:58.000Z</updated>
+        <updated>2023-11-07T11:02:37.000Z</updated>
         <summary type="html"><![CDATA[二次入职流程说明]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二次入职流程说明">二次入职流程说明<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BA%8C%E6%AC%A1%E5%85%A5%E8%81%8C%E6%B5%81%E7%A8%8B%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="二次入职流程说明的直接链接" title="二次入职流程说明的直接链接">​</a></h2>
 <ol>
@@ -108,6 +108,30 @@
 <li>pass is null, 是否通过0合格 1不合格 2复证 合格则待取证</li>
 <li>type_status in (0, 1), 2023-10-26</li>
 <li>tj_sure = 2, 是否安排体检0待处理 1待安排 2已安排 3已取消</li>
+</ul>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="合格-occupationpeoplecontrollerpagestatus">合格 OccupationPeopleController#pageStatus<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E5%90%88%E6%A0%BC-occupationpeoplecontrollerpagestatus" class="hash-link" aria-label="合格 OccupationPeopleController#pageStatus的直接链接" title="合格 OccupationPeopleController#pageStatus的直接链接">​</a></h5>
+<ul>
+<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
+<ul>
+<li>pass = 0, 0合格1不合格2复检</li>
+</ul>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="复检-occupationpeoplecontrollerpagestatus">复检 OccupationPeopleController#pageStatus<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E5%A4%8D%E6%A3%80-occupationpeoplecontrollerpagestatus" class="hash-link" aria-label="复检 OccupationPeopleController#pageStatus的直接链接" title="复检 OccupationPeopleController#pageStatus的直接链接">​</a></h5>
+<ul>
+<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
+<ul>
+<li>pass = 2, 0合格1不合格2复检</li>
+</ul>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="不合格-occupationpeoplecontrollerpagestatus">不合格 OccupationPeopleController#pageStatus<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%B8%8D%E5%90%88%E6%A0%BC-occupationpeoplecontrollerpagestatus" class="hash-link" aria-label="不合格 OccupationPeopleController#pageStatus的直接链接" title="不合格 OccupationPeopleController#pageStatus的直接链接">​</a></h5>
+<ul>
+<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
+<ul>
+<li>pass = 1, 0合格1不合格2复检</li>
 </ul>
 </li>
 </ul>]]></content>
