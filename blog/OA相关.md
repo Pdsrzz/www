@@ -69,6 +69,13 @@ authors: [biuaxia]
 
 ##### 体检安排
 
+###### 待安排 OccupationPeopleController#page
+
+- zhkj_zzoa_tj_occupation_people, 职业体检人员信息
+  - is_deleted = 0, 是否删除, 0否1是
+  - tj_result = 0, 是否上传 0未上传  1已上传
+  - tj_sure = 1, 是否安排体检0待处理 1待安排 2已安排 3已取消
+
 ###### 已安排 ArrangePage
 
 - zhkj_zzoa_tj_occupation_people, 职业体检人员信息
