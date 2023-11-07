@@ -83,3 +83,17 @@ authors: [biuaxia]
   - type_status in (0, 1), 2023-10-26
   - tj_sure = 2, 是否安排体检0待处理 1待安排 2已安排 3已取消
 
+##### 合格 OccupationPeopleController#pageStatus
+
+- zhkj_zzoa_tj_occupation_people, 职业体检人员信息
+  - pass = 0, 0合格1不合格2复检
+
+##### 复检 OccupationPeopleController#pageStatus
+
+- zhkj_zzoa_tj_occupation_people, 职业体检人员信息
+  - pass = 2, 0合格1不合格2复检
+
+##### 不合格 OccupationPeopleController#pageStatus
+
+- zhkj_zzoa_tj_occupation_people, 职业体检人员信息
+  - pass = 1, 0合格1不合格2复检
