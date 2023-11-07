@@ -4,7 +4,7 @@
         <title>JaverVip &amp;&amp; ZhCN Blog</title>
         <link>https://www.javer.vip/blog</link>
         <description>JaverVip &amp;&amp; ZhCN Blog</description>
-        <lastBuildDate>Mon, 06 Nov 2023 02:34:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Nov 2023 09:23:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hands</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[OA相关]]></title>
             <link>https://www.javer.vip/blog/OA相关</link>
             <guid>https://www.javer.vip/blog/OA相关</guid>
-            <pubDate>Mon, 06 Nov 2023 02:34:20 GMT</pubDate>
+            <pubDate>Tue, 07 Nov 2023 09:23:58 GMT</pubDate>
             <description><![CDATA[二次入职流程说明]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二次入职流程说明">二次入职流程说明<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BA%8C%E6%AC%A1%E5%85%A5%E8%81%8C%E6%B5%81%E7%A8%8B%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="二次入职流程说明的直接链接" title="二次入职流程说明的直接链接">​</a></h2>
 <ol>
@@ -92,6 +92,16 @@
 </li>
 </ul>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id="体检安排">体检安排<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BD%93%E6%A3%80%E5%AE%89%E6%8E%92" class="hash-link" aria-label="体检安排的直接链接" title="体检安排的直接链接">​</a></h5>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id="待安排-occupationpeoplecontrollerpage">待安排 OccupationPeopleController#page<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E5%BE%85%E5%AE%89%E6%8E%92-occupationpeoplecontrollerpage" class="hash-link" aria-label="待安排 OccupationPeopleController#page的直接链接" title="待安排 OccupationPeopleController#page的直接链接">​</a></h6>
+<ul>
+<li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
+<ul>
+<li>is_deleted = 0, 是否删除, 0否1是</li>
+<li>tj_result = 0, 是否上传 0未上传  1已上传</li>
+<li>tj_sure = 1, 是否安排体检0待处理 1待安排 2已安排 3已取消</li>
+</ul>
+</li>
+</ul>
 <h6 class="anchor anchorWithStickyNavbar_LWe7" id="已安排-arrangepage">已安排 ArrangePage<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E5%B7%B2%E5%AE%89%E6%8E%92-arrangepage" class="hash-link" aria-label="已安排 ArrangePage的直接链接" title="已安排 ArrangePage的直接链接">​</a></h6>
 <ul>
 <li>zhkj_zzoa_tj_occupation_people, 职业体检人员信息<!-- -->
