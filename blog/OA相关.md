@@ -80,7 +80,7 @@ authors: [biuaxia]
 
 - zhkj_zzoa_tj_occupation_people, 职业体检人员信息
   - pass is null, 是否通过0合格 1不合格 2复证 合格则待取证
-  - type_status in (0, 1), 2023-10-26
+  - type_status in (0, 1), 0人才库 1员工档案
   - tj_sure = 2, 是否安排体检0待处理 1待安排 2已安排 3已取消
 
 ##### 合格 OccupationPeopleController#pageStatus
