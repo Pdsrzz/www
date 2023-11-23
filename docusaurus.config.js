@@ -129,6 +129,14 @@ const config = {
                 label: "RakSmart 1C2G5M 探针",
                 to: "http://198.200.60.2/",
               },
+              {
+                label: "必应AI 国内",
+                to: "https://ai.javer.vip/",
+              },
+              {
+                label: "必应AI 国际",
+                to: "https://ai.zhcn.it/",
+              },
             ],
           },
           {
