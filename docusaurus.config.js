@@ -97,6 +97,10 @@ const config = {
             title: "友链",
             items: [
               {
+                label: "IPFS 快照",
+                to: "https://ipfs.javer.vip",
+              },
+              {
                 label: "零玖博客",
                 to: "https://meblogs.netlify.app/weblink.html",
               },
