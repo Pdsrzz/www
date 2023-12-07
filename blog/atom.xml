@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.javer.vip/blog</id>
     <title>JaverVip &amp;&amp; ZhCN Blog</title>
-    <updated>2023-12-07T02:18:56.000Z</updated>
+    <updated>2023-12-07T02:59:25.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.javer.vip/blog"/>
     <subtitle>JaverVip &amp;&amp; ZhCN Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[OA相关]]></title>
         <id>https://www.javer.vip/blog/OA相关</id>
         <link href="https://www.javer.vip/blog/OA相关"/>
-        <updated>2023-12-07T02:18:56.000Z</updated>
+        <updated>2023-12-07T02:59:25.000Z</updated>
         <summary type="html"><![CDATA[二次入职流程说明]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二次入职流程说明">二次入职流程说明<a href="https://www.javer.vip/blog/OA%E7%9B%B8%E5%85%B3#%E4%BA%8C%E6%AC%A1%E5%85%A5%E8%81%8C%E6%B5%81%E7%A8%8B%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="二次入职流程说明的直接链接" title="二次入职流程说明的直接链接">​</a></h2>
 <ol>
@@ -144,7 +144,7 @@
         <title type="html"><![CDATA[理解 Gorm 的关联模式]]></title>
         <id>https://www.javer.vip/blog/理解 Gorm 的关联模式</id>
         <link href="https://www.javer.vip/blog/理解 Gorm 的关联模式"/>
-        <updated>2023-12-07T02:18:56.000Z</updated>
+        <updated>2023-12-07T02:59:25.000Z</updated>
         <summary type="html"><![CDATA[GORM（Go Object Relational Mapper）是一个用于在Go语言中进行对象关系映射（ORM）的库，它简化了与数据库的交互。在GORM中，"Belongs To"、"Has One"、"Has Many"和"Many To Many"是用于描述不同表之间关系的术语。以下是对这些术语的简要解释和举例：]]></summary>
         <content type="html"><![CDATA[<p>GORM（Go Object Relational Mapper）是一个用于在Go语言中进行对象关系映射（ORM）的库，它简化了与数据库的交互。在GORM中，"Belongs To"、"Has One"、"Has Many"和"Many To Many"是用于描述不同表之间关系的术语。以下是对这些术语的简要解释和举例：</p>
 <ol>
