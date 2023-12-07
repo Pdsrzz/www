@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwww=self.webpackChunkwww||[]).push([[4121],{8070:s=>{s.exports=JSON.parse('[{"label":"Windows","permalink":"/docs/tags/windows","count":1},{"label":"Golang","permalink":"/docs/tags/golang","count":1}]')}}]);
