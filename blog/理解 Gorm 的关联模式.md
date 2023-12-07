@@ -2,6 +2,7 @@
 title: 理解 Gorm 的关联模式
 authors: [javerVip]
 tags: [chatGPT]
+sidebar_position: 202312060907
 ---
 
 GORM（Go Object Relational Mapper）是一个用于在Go语言中进行对象关系映射（ORM）的库，它简化了与数据库的交互。在GORM中，"Belongs To"、"Has One"、"Has Many"和"Many To Many"是用于描述不同表之间关系的术语。以下是对这些术语的简要解释和举例：
